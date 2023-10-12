@@ -17,7 +17,7 @@ img {
     width: auto;
 }
 
-/* styling the quotes: putting it in the middle, also changing the font and increasing the font size for it to appear different from other texts */
+/* styling the quotes: putting it in the middle, also changing the font family and increasing the font size for it to appear different from other texts */
 blockquote {
     text-align: center;
     font-family: Arial, sans-serif;
