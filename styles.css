@@ -1,0 +1,30 @@
+/* displayed the heading at the center */
+h2 {
+    text-align: center;
+}
+
+/* gave some p tags a class of "p-class", so that I'll be able to style them separately, was able to bring the texts closer to the headings by reducing the margin top by -15px */
+.p-class {
+    margin: 10px;
+    margin-top: -15px;
+    
+}
+/* styling the images: displaying it in the middle and controlling the height rather than leaving it at auto which is too big */
+img {
+    display: block;
+    margin: auto;
+    height: 800px;
+    width: auto;
+}
+
+/* styling the quotes: putting it in the middle, also changing the font and increasing the font size for it to appear different from other texts */
+blockquote {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 70px;
+    background-color: #ccdbdc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
